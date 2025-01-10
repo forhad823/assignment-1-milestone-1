@@ -32,13 +32,14 @@ body {
   padding: 17px 34px;
   cursor: pointer;
   border-radius: 8px;
+  border-style: none;
 }
 .green-button:hover {
   background-color: #aa2575;
 }
 
 .section-title {
-  font-size: 40;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 24px;
 }
@@ -109,3 +110,45 @@ body {
 }
 
 /* Vision of future.......styles */
+.vision {
+  margin: 50px 0px;
+}
+.vision-box-container {
+  margin: 32px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.vision-box {
+  border-style: none;
+  border-radius: 16px;
+  padding: 32px;
+  width: 409px;
+}
+.vision-box:hover {
+  background-color: #d673ca !important;
+}
+.card-icon {
+  width: 64px;
+  height: 64px;
+}
+.vision-box-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0e0e0e;
+  opacity: 80%;
+  margin: 24px 0px 12px 0px;
+}
+
+.vision-box-para {
+  margin-bottom: 24px;
+}
+.box1-btn {
+  background-color: #5490f5;
+}
+.box2-btn {
+  background-color: rgb(157, 253, 13);
+}
+.box3-btn {
+  background-color: #ffc239;
+}
