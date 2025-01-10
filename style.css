@@ -1,4 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
 }
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f5f5f5;
+  max-width: 1280px;
+}
+
+body {
+  max-width: 1280px;
+  margin: auto;
+  text-align: left;
+  padding: 0 160px;
+  background-color: #f5f5f5;
+}
+
+/* ..........all default styles are above.............. */
+
+/* ...............shared styles below...............*/
+.green-button {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.green-button:hover {
+  background-color: #aa2575;
+}
+
+.section-title {
+  font-size: 40;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #0e0e0e;
+  opacity: 70%;
+}
+/* .............. shared syles above................ */
+
+/* styles for nav bar */
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 31px 0;
+}
+
+.btn-sign-in {
+  text-decoration: none;
+  color: green;
+  font-size: 18px;
+  font-weight: 600px;
+  padding: 15px 30px;
+  border: 1px solid green;
+  border-radius: 8px;
+}
+
+/* banner's style */
+.banner {
+  width: 1280px;
+  height: 560px;
+  background-color: #c6e4d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  gap: 64px;
+  border-radius: 24px;
+}
+.banner-text {
+  margin: 117px 0px 117px 59px;
+}
+.banner-title {
+  font-size: 56px;
+  font-weight: bold;
+  opacity: 100%;
+  line-height: auto;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.small-text {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 50%;
+}
+
+.banner-button {
+}
+
+.banner img {
+  width: 474px;
+  height: 400px;
+  margin: 80px 59px 80px 0px;
+}
+
+/* Vision of future.......styles */
