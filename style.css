@@ -154,7 +154,6 @@ body {
 /*............Quote box style................*/
 .quote-box {
   padding: 40px 24px;
-  margin-bottom: 30px;
   background-color: white;
   border-style: none;
   border-radius: 16px;
@@ -222,6 +221,7 @@ body {
   align-items: center;
   text-align: center;
   gap: 10px;
+  margin: 80px;
 }
 
 .card-container {
@@ -303,7 +303,7 @@ body {
 .newsletter input[type="submit"]:hover {
   background-color: blue;
 }
-/*........footer section styles...... */
+/*..................footer section styles...... */
 
 footer {
   display: flex;
@@ -324,4 +324,54 @@ footer .icon-box {
 footer .icon-box .icon-img {
   width: 24px;
   height: 24px;
+  cursor: pointer;
+}
+
+/*............... opinion section styles.....................*/
+.opinion {
+  margin: 80px 0px;
+}
+table {
+  border-collapse: collapse;
+  border: 32px solid white;
+  width: 100%;
+  /* padding: 32px; */
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+thead {
+  background-color: #c6e4d6;
+}
+
+.table-button img {
+  width: 15px;
+  height: 15px;
+}
+
+.table-button {
+  padding: 13px 17px;
+  background-color: #daf1e7;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 24px 24px 24px 24px;
+}
+tbody {
+  /* padding: 32px; */
+  background-color: white;
 }
